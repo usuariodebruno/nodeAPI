@@ -4,3 +4,4 @@ const app = require('./src/app');
 const serv = http.createServer(app);
 
 serv.listen(port);
+console.log(`Servidor rodando na ${port}`)
