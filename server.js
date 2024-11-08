@@ -1,7 +1,8 @@
 const http = require('http');
-const port = process.env.PORT || 3000; 
 const app = require('./src/app');
 const serv = http.createServer(app);
 
-serv.listen(port);
-console.log(`Servidor rodando na ${port}`)
+serv.listen(process.env.SERVER_PORT);
+
+console.log(`Servidor rodando na ${process.env.SERVER_PORT}`)
+console.log(`Postgres rodando na ${process.env.POSTGRES_PORT}`)
