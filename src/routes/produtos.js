@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { sql } = require('../postgres')// Não estou exportado o arquivo inteiro, apenas o pools 
+const { sql } = require('../config/postgres') 
 
 // RETORNA TODOS PRODUTOS 
 router.get('/', async (req, res, next) => {
