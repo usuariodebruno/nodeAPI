@@ -1,9 +1,12 @@
 {
-    "env": {
+    "env": {        
         "POSTGRES_USER": "postgres",
-        "POSTGRES_PASSWORD": "postgres",
-        "POSTGRES_DATABASE": "loja",
+        "POSTGRES_PASSWORD": "postgres",        
+        "POSTGRES_DATABASE": "nodePostgres",
+        "POSTGRES_DB_NAME": "loja",
         "POSTGRES_HOST": "localhost",
-        "POSTGRES_PORT": 5432
+        "POSTGRES_PORT": 5432,
+        
+        "SERVER_PORT": 3000
     }
 }
